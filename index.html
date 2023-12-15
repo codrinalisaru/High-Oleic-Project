@@ -20,6 +20,8 @@
   <button class="tablinks" onclick="openTab(event, 'Despre')">Despre</button>
 </div>
 
+
+
 <div class="user">
   <label class="logout">
     <span class="glyphicon glyphicon-user" style="height:50px;width:20px"></span>Contul meu
@@ -28,6 +30,8 @@
 </div>
 
 <div id="Acasa" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'"
+    class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
   <h3>Acasă</h3>
   <p>Insert text here</p> 
 </div>
@@ -53,5 +57,7 @@
 </div>
 
 <script src="functionalities.js"></script>
+
+
 </body>
 </html> 

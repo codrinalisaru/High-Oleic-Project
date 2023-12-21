@@ -7,65 +7,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="header">
-  <h1 style="font-size:60px; margin-left: 15px;">High Oleic</h1>
-  <h2 style="font-size:30px; margin-left: 15px;">"OMEGA 9" - The Lifestyle Oil</h2>
-</div>
+  <div class="header">
+    <h1 style="font-size:60px; margin-left: 15px;">High Oleic</h1>
+    <h2 style="font-size:30px; margin-left: 15px;">"OMEGA 9" - The Lifestyle Oil</h2>
+  </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Acasa')">Acasă</button>
-  <button class="tablinks" onclick="openTab(event, 'Istoria uleiului high oleic')">Istoria uleiului high oleic</button>
-  <button class="tablinks" onclick="openTab(event, 'Magazin')">Magazin</button>
-  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-  <button class="tablinks" onclick="openTab(event, 'Despre')">Despre</button>
-</div>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Acasa')">Acasă</button>
+    <button class="tablinks" onclick="openTab(event, 'Istoria uleiului high oleic')">Istoria uleiului high oleic</button>
+    <button class="tablinks" onclick="openTab(event, 'Magazin')">Magazin</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+    <button class="tablinks" onclick="openTab(event, 'Despre')">Despre</button>
+  </div>
 
-<div class="user">
-  <label class="logout">
-    <span class="glyphicon glyphicon-user" style="height:50px;width:20px"></span>Contul meu
-    <input name="submit2" type="submit" id="submit2" value="Log out">
-  </label>
-</div>
+  <div class="user">
+    <label class="logout">
+      <span class="glyphicon glyphicon-user" style="height:50px;width:20px"></span>Contul meu
+      <input name="submit2" type="submit" id="submit2" value="Log out">
+    </label>
+  </div>
 
-<div id="Acasa" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'"
+  <div id="Acasa" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'"
+      class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
+    <h3>Acasă</h3>
+    <p>Insert text here</p> 
+  </div>
+
+  <div id="Istoria uleiului high oleic" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'"
+      class="tablinks-button tablinks-display-topright">&times;</span>
+    <h3>Istoria uleiului high oleic</h3>
+    <p>Insert text here</p> 
+  </div>
+
+  <div id="Magazin" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'"
     class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
-  <h3>Acasă</h3>
-  <p>Insert text here</p> 
-</div>
+    <h3>Magazin</h3>
+    <p>Insert text here</p> 
+  </div>
 
-<div id="Istoria uleiului high oleic" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'"
-    class="tablinks-button tablinks-display-topright">&times;</span>
-  <h3>Istoria uleiului high oleic</h3>
-  <p>Insert text here</p> 
-</div>
+  <div id="Contact" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'"
+      class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
+    <h3>Contact</h3>
+    <p>Producător de ulei de floarea soarelui high-oleic presat la rece 🌻💚</p>
+    <p>Comenzi în Sibiu/Tălmăcel 🌁</p>
+    <p>📞 0733792322</p>
+    <p>#produsinromania</p> 
+  </div>
 
-<div id="Magazin" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'"
-  class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
-  <h3>Magazin</h3>
-  <p>Insert text here</p> 
-</div>
+  <div id="Despre" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'"
+      class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
+    <h3>Despre</h3>
+    <p>Insert text here</p> 
+  </div>
 
-<div id="Contact" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'"
-    class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
-  <h3>Contact</h3>
-  <p>Producător de ulei de floarea soarelui high-oleic presat la rece 🌻💚</p>
-  <p>Comenzi în Sibiu/Tălmăcel 🌁</p>
-  <p>📞 0733792322</p>
-  <p>#produsinromania</p> 
-</div>
+  <br>
+  <footer>
+    <p>This is a footer</p>
+  </footer>
 
-<div id="Despre" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'"
-    class="tablinks-button tablinks-large tablinks-display-topright">&times;</span>
-  <h3>Despre</h3>
-  <p>Insert text here</p> 
-</div>
-
-<script src="functionalities.js"></script>
+  <script src="functionalities.js"></script>
 
 
 </body>
